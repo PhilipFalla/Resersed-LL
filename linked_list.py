@@ -198,3 +198,19 @@ class LinkedList:
             previous_node = current_node
 
         print('Reference node {} not found in linked list...'.format(reference_node))
+    
+    def reverse(self):
+        if self.start is None:
+            return "Empty list."
+        
+        Current_node = self.start
+        Prev_node = None
+        Next_node = None
+
+        while Current_node != None:
+            Next_node = Current_node.next
+            Current_node.next = Prev_node
+            Prev_node = Current_node
+            Current_node = Next_node
+        
+        self.start = Prev_node
