@@ -33,3 +33,6 @@ Para evaluar el funcionamiento de su código, deberá realizar lo siguiente en e
 1) Crear una instancia de Linked List y agregar 10 elementos en ella.
 2) Imprimir la lista original.
 3) Imprimir ambas listas resultantes para evaluar que sean iguales.
+
+## Results
+ ![Console results](https://github.com/PhilipFalla/Resersed-LL/blob/main/img/result_console.png)
